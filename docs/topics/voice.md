@@ -57,7 +57,7 @@ The `dispatcher` in this case is a `StreamDispatcher` - here you can control the
 dispatcher.pause();
 dispatcher.resume();
 
-dispatcher.setVolume(0.5); // half the volume
+dispatcher.setVolume(0.5); // WARNING: Deprecated!
 
 dispatcher.on('finish', () => {
   console.log('Finished playing!');
